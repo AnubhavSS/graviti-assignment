@@ -4,7 +4,7 @@ import { LocationContext } from "@/Context";
 import React, { useContext } from "react";
 import "leaflet/dist/leaflet.css";
 import { destIcon, myIcon, stopIcon } from "../../Icon";
-import RoutingMachine from "./RouteMachine";
+
 const MapSection = () => {
   const { source, destination,stops } = useContext(LocationContext);
 
@@ -61,7 +61,7 @@ const MapSection = () => {
           icon={stopIcon}
         ></Marker>
         </Marker>
-        <RoutingMachine/>
+        
       </MapContainer>
     </div>
   );
