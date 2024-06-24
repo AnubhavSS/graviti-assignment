@@ -1,3 +1,5 @@
+"use client"
+
 import L from "leaflet";
 import { createControlComponent } from "@react-leaflet/core";
 import "leaflet-routing-machine";

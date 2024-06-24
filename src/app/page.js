@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Header />
       <h2 className="hidden md:block w-full h-[24px] my-8 leading-6 font-normal text-center font-sans text-[20px] text-[#1B31A8]">
-        Let's calculate <span className="font-bold">distance</span> from Google
+        Let&apos;s calculate <span className="font-bold">distance</span> from Google
         maps
       </h2>
 
